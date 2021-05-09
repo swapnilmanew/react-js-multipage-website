@@ -37,3 +37,7 @@
   position: absolute;
   bottom:0px;
 }
+.card-img-top 
+{
+  width:200px !important;
+}

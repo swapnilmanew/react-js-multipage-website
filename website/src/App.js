@@ -4,13 +4,13 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Services from "./Pages/Services";
-
 import './App.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div>
       <BrowserRouter>
+     
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/services" component={Services} />

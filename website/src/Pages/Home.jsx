@@ -7,13 +7,11 @@ import easy from "../Images/easy_code.svg";
 import flex from "../Images/flex.svg";
 
 const Home = () => {
-    const style = {
-        backgroundColor: "#f7f9ff"
-    }
+
     return (
         <>
             <Hero boldText="Change the way you build websites With Bootsland" text="Build a Beautiful, Clean & Modern Design website with flexible Bootstrap components." img={img} />
-            <div className="container" style={style}>
+            <div className="container">
                 <h1 className="fw-bold display-3">Our Services</h1>
                 <div className="row py-5 text-center">
                     <Cards cardImg={ui} cardTitle="UI/UX Designing" cardText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste corrupti odit ducimus unde magnam quaerat fugiat debitis, ad veritatis?" />

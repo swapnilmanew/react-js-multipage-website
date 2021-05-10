@@ -9,6 +9,10 @@ import flex from "../Images/flex.svg";
 import s1 from "../Images/1.svg";
 import s2 from "../Images/2.svg";
 import s3 from "../Images/3.svg";
+import t1 from "../Images/t1.png";
+import t2 from "../Images/t2.png";
+import t3 from "../Images/t3.png";
+import t4 from "../Images/t4.png";
 
 import RightText from '../Components/RightText';
 import LeftText from '../Components/LeftText';
@@ -26,7 +30,6 @@ const Home = () => {
                     <Cards cardImg={flex} cardTitle="Flexibility" cardText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste corrupti odit ducimus unde magnam quaerat fugiat debitis, ad veritatis?" />
                 </div>
                 <RightText img={img1} heading="Bootsland Crafting Creative And Beautiful Experience" text="We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam." />
-
 
             </div>
             <div className="container py-5">
@@ -50,10 +53,10 @@ const Home = () => {
                     All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
                     </p>
                 <div className="row">
-                    <Team name="Abhinav Mane" image={img} post="Software Developer"/>
-                    <Team name="Vaibhavi Mane" image={img} post="Software Developer"/>
-                    <Team name="Vaibhav Mane" image={img} post="Software Developer"/>
-                    <Team name="Swapnil Mane" image={img} post="Software Developer"/>
+                    <Team name="Abhinav Mane" image={t1} post="Software Developer" />
+                    <Team name="Vaibhavi Mane" image={t2} post="Software Developer" />
+                    <Team name="Vaibhav Mane" image={t3} post="Software Developer" />
+                    <Team name="Swapnil Mane" image={t4} post="Software Developer" />
                 </div>
             </div>
         </>

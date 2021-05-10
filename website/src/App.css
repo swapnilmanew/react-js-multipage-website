@@ -41,3 +41,12 @@ body
   position: absolute;
   bottom:0px;
 }
+.card:hover, .card
+{
+  box-shadow: rgba(137, 173, 255, 0.15) 0px 10px 55px 5px !important;
+}
+.profile
+{
+  width:150px;
+  margin: 10px auto !important;
+}

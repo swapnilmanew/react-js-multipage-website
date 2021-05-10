@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {NavLink} from "react-router-dom";
 const Cards = ({ cardText, cardTitle, cardImg }) => {
     return (
         <div className="col-12 col-sm-6 col-md-4 m-auto">
@@ -11,7 +11,7 @@ const Cards = ({ cardText, cardTitle, cardImg }) => {
                         <hr />
                         <p>{cardText}</p>
                     </div>
-                    <NavLink to
+                    <NavLink to="/" className="nav-link">Read More</NavLink>
                 </div>
             </div>
         </div>

@@ -9,10 +9,13 @@ const Hero = ({ boldText, img, text }) => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-sm-10 col-md-10 m-auto">
-                       <div className=" content">
-                       <h1 className="fw-bold display-2 text-white text-center m-auto">{boldText}</h1>
-                        <p className="text-white">{text}</p>
-                       </div>
+                        <div className=" content">
+                            <h1 className="fw-bold display-2 text-white text-center m-auto">{boldText}</h1>
+                            <p className="text-white">{text}</p>
+                            <div className="text-center">
+                                <button className="btn btn-primary btn-lg">Get Started</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -86,10 +86,10 @@ const Home = () => {
                             All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
     </p>
                     </div>
-                    <Team name="Abhinav Mane" image={t1} post="Software Developer" />
-                    <Team name="Vaibhavi Mane" image={t2} post="Software Developer" />
-                    <Team name="Vaibhav Mane" image={t3} post="Software Developer" />
-                    <Team name="Swapnil Mane" image={t4} post="Software Developer" />
+                    <Team name="John Doe" image={t1} post="Software Developer" />
+                    <Team name="Melinda Smith" image={t2} post="Software Developer" />
+                    <Team name="Steve Warne" image={t3} post="Software Developer" />
+                    <Team name="Kevin Defer" image={t4} post="Software Developer" />
                 </div>
             </div>
             {/* OUR TEAM SERCTION ENDS HERE */}

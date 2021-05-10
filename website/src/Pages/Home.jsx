@@ -35,6 +35,7 @@ const Home = () => {
                 <RightText img={img1} heading="Bootsland Crafting Creative And Beautiful Experience" text="We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam." />
 
             </div>
+            {/* hero section ends */}
             <div className="container py-5">
 
                 <div className="row">
@@ -43,12 +44,30 @@ const Home = () => {
                             Three Simple Step To Started Working Process
                     </h2>
                     </div>
+
                     <LeftText img={s1} heading="1) Choose Project" text="We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam." />
                     <RightText img={s2} heading="2) Start Creating" text="We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam." />
                     <LeftText img={s3} heading="3) Get Result" text="We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam." />
 
                 </div>
             </div>
+            {/* OUR SERVICES SECTION ENDS HERE */}
+
+            <div className="container py-5">
+
+                <div className="row">
+                    <div className="col-12 col-sm-10 col-md-10 m-auto text-center">
+                        <h2 className="fw-bold text-center">
+                            Simple, Fair and affordable prices for all.
+                         </h2>
+                        <p className="fw-light fs-5">
+                            All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
+                         </p>
+                    </div>
+
+                </div>
+            </div>
+            {/* PRICING CARDS SECTION ENDS HERE */}
 
             <div className="container py-5">
 
@@ -56,10 +75,10 @@ const Home = () => {
                     <div className="col-12 col-sm-10 col-md-10 m-auto text-center">
                         <h2 className="fw-bold text-center">
                             Meet Our Team Experts
-                    </h2>
+    </h2>
                         <p className="fw-light fs-5">
                             All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
-                    </p>
+    </p>
                     </div>
                     <Team name="Abhinav Mane" image={t1} post="Software Developer" />
                     <Team name="Vaibhavi Mane" image={t2} post="Software Developer" />
@@ -67,6 +86,8 @@ const Home = () => {
                     <Team name="Swapnil Mane" image={t4} post="Software Developer" />
                 </div>
             </div>
+            {/* OUR TEAM SERCTION ENDS HERE */}
+
             <div className="container">
 
                 <div className="row">
@@ -85,7 +106,7 @@ const Home = () => {
 
                 </div>
             </div>
-
+            {/* BLOG SECTION ENDS HERE */}
         </>
     )
 }

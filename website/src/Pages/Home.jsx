@@ -66,9 +66,9 @@ const Home = () => {
                                 All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
                          </p>
                         </div>
-                        <Pricing />
-                        <Pricing />
-                        <Pricing />
+                        <Pricing amt="39" type="Starter" />
+                        <Pricing amt="59" type="Premium" />
+                        <Pricing amt="99" type="Ultimate" />
 
                     </div>
                 </div>

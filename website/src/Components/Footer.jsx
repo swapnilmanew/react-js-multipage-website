@@ -17,7 +17,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-sm-6 col-md-2 m-auto text-white">
+                        <div className="col-12 col-sm-6 col-md-2 text-white">
                             <h4>About</h4>
                             <p>Shop</p>
                             <p>Faq</p>
@@ -25,7 +25,7 @@ const Footer = () => {
                             <p>Contact Us</p>
 
                         </div>
-                        <div className="col-12 col-sm-6 col-md-2 m-auto text-white">
+                        <div className="col-12 col-sm-6 col-md-2 text-white">
                             <h4>Service</h4>
                             <p>Content Writing</p>
                             <p>Documentation</p>
@@ -40,8 +40,8 @@ const Footer = () => {
                             <p>Support</p>
                         </div>
                         <div className="col-12 m-auto text-center text-white mt-4">
-                            <hr className="m-auto w-75" />
-                            <p className="fs-5 fw-300">Designed and Developed using React Js And Bootstrap 5</p>
+                            <hr className="mx-auto my-3 w-75" />
+                            <p className="fs-5 fw-300 mt-4">Designed and Developed using React Js And Bootstrap 5</p>
                         </div>
                     </div>
                 </div>

@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Pricing = () => {
+const Pricing = ({ amt, type }) => {
     return (
         <div className="col-12 col-sm-6 col-md-4 mx-auto my-5">
             <div className="card border-0 p-3">
                 <div className="header text-center">
-                    <h4>STARTER</h4>
-                    <span><sub>$</sub> <span className="display-1 fw-light">59</span> /mo</span>
+                    <h4 className="fw-bold">{type}</h4>
+                    <span><sub>$</sub> <span className="display-1 fw-bold text-primary">{amt}</span> /mo</span>
                 </div>
                 <div className="card-body">
                     <p>Responsive landing pages</p>

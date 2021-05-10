@@ -13,10 +13,12 @@ import t1 from "../Images/t1.png";
 import t2 from "../Images/t2.png";
 import t3 from "../Images/t3.png";
 import t4 from "../Images/t4.png";
-
 import RightText from '../Components/RightText';
 import LeftText from '../Components/LeftText';
 import Team from '../Components/Team';
+import Blog from './Blog';
+import b1 from "../Images/b1.png";
+import b2 from "../Images/b2.png";
 
 const Home = () => {
 
@@ -76,6 +78,10 @@ const Home = () => {
                             All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
                        </p>
                     </div>
+
+                    <Blog img={b1} title="Bootsland Perfect Performance landing Page" desc="Businesses need access to development resources serspiciatis." />
+                    <Blog img={b2} title="The most powerfull template that make you." desc="Businesses need access to development resources serspiciatis." />
+
 
                 </div>
             </div>

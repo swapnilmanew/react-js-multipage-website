@@ -19,6 +19,7 @@ import Team from '../Components/Team';
 import Blog from './Blog';
 import b1 from "../Images/b1.png";
 import b2 from "../Images/b2.png";
+import Pricing from '../Components/Pricing';
 
 const Home = () => {
 
@@ -53,18 +54,22 @@ const Home = () => {
             </div>
             {/* OUR SERVICES SECTION ENDS HERE */}
 
-            <div className="container py-5">
-
-                <div className="row">
-                    <div className="col-12 col-sm-10 col-md-10 m-auto text-center">
-                        <h2 className="fw-bold text-center">
-                            Simple, Fair and affordable prices for all.
+            <div className="container-fluid bg-theme py-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-sm-10 col-md-10 m-auto text-center">
+                            <h2 className="fw-bold text-center">
+                                Simple, Fair and affordable prices for all.
                          </h2>
-                        <p className="fw-light fs-5">
-                            All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
+                            <p className="fw-light fs-5">
+                                All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
                          </p>
-                    </div>
+                        </div>
+                        <Pricing />
+                        <Pricing />
+                        <Pricing />
 
+                    </div>
                 </div>
             </div>
             {/* PRICING CARDS SECTION ENDS HERE */}

@@ -5,6 +5,9 @@
   box-sizing:border-box;
   font-family: 'Poppins', sans-serif;
 }
+:root{
+  --theme-color:#060927;
+}
 body
 {
   background: hsl(0, 0%, 100%,94%);

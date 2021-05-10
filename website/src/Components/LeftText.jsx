@@ -8,7 +8,7 @@ const LeftText = ({ img, heading, text }) => {
                 <h2 className="fw-bold mt-3">
                     {heading}
                 </h2>
-                <p className="fs-5 mt-4 fw-light text-muted">{text}</p>
+                <p className="text-muted">{text}</p>
             </div>
             <div className="col-12 col-sm-6 col-md-5 m-auto">
                 <img src={img} alt={img} className="img-fluid" />

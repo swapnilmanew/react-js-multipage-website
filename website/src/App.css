@@ -9,6 +9,11 @@ body
 {
   background: hsl(0, 0%, 100%,94%);
 }
+p
+{
+  font-weight:300 !important;
+}
+
 .hero-bg
 {
   background-position:center;

@@ -11,6 +11,7 @@ const Cards = ({ cardText, cardTitle, cardImg }) => {
                         <hr />
                         <p>{cardText}</p>
                     </div>
+                    <NavLink to
                 </div>
             </div>
         </div>

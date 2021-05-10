@@ -3,7 +3,7 @@ import React from 'react'
 const Team = ({ image, name, post }) => {
     return (
         <div className="col-12 col-sm-6 col-md-3 mx-auto my-5">
-            <div className="card border-0 shadow-lg text-center">
+            <div className="card border-0 text-center">
                 <img src={image} alt={image} className="profile" />
                 <div className="card-body">
                     <div className="card-title">

@@ -20,6 +20,7 @@ import Blog from './Blog';
 import b1 from "../Images/b1.png";
 import b2 from "../Images/b2.png";
 import Pricing from '../Components/Pricing';
+import Footer from '../Components/Footer';
 
 const Home = () => {
 
@@ -108,10 +109,13 @@ const Home = () => {
                     <Blog img={b1} title="Bootsland Perfect Performance landing Page" desc="Businesses need access to development resources serspiciatis." />
                     <Blog img={b2} title="The most powerfull template that make you." desc="Businesses need access to development resources serspiciatis." />
 
-
                 </div>
             </div>
             {/* BLOG SECTION ENDS HERE */}
+
+            <Footer />
+
+            {/* FOOTER SECTION ENDS HERE */}
         </>
     )
 }

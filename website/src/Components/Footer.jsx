@@ -39,6 +39,10 @@ const Footer = () => {
                             <p>Privacy Policy</p>
                             <p>Support</p>
                         </div>
+                        <div className="col-12 m-auto text-center text-white mt-4">
+                            <hr className="m-auto w-75" />
+                            <p className="fs-5 fw-300">Designed and Developed using React Js And Bootstrap 5</p>
+                        </div>
                     </div>
                 </div>
             </footer>

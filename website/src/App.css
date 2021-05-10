@@ -5,6 +5,10 @@
   box-sizing:border-box;
   font-family: 'Poppins', sans-serif;
 }
+body
+{
+  background: hsl(0, 0%, 100%,94%);
+}
 .hero-bg
 {
   background-position:center;

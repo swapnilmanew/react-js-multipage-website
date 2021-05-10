@@ -6,7 +6,13 @@ import ui from "../Images/ui.svg";
 import easy from "../Images/easy_code.svg";
 import img1 from "../Images/img1.png"
 import flex from "../Images/flex.svg";
+import s1 from "../Images/1.svg";
+import s2 from "../Images/2.svg";
+import s3 from "../Images/3.svg";
+
 import RightText from '../Components/RightText';
+import LeftText from '../Components/LeftText';
+import Team from '../Components/Team';
 
 const Home = () => {
 
@@ -19,7 +25,36 @@ const Home = () => {
                     <Cards cardImg={easy} cardTitle="Documentation" cardText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste corrupti odit ducimus unde magnam quaerat fugiat debitis, ad veritatis?" />
                     <Cards cardImg={flex} cardTitle="Flexibility" cardText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste corrupti odit ducimus unde magnam quaerat fugiat debitis, ad veritatis?" />
                 </div>
-                <RightText img={img1} />
+                <RightText img={img1} heading="Bootsland Crafting Creative And Beautiful Experience" text="We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam." />
+
+
+            </div>
+            <div className="container py-5">
+                <h2 className="fw-bold text-center">
+                    Three Simple Step To Started Working Process
+                    </h2>
+                <div className="row">
+
+                    <LeftText img={s1} heading="1) Choose Project" text="We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam." />
+                    <RightText img={s2} heading="2) Start Creating" text="We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam." />
+                    <LeftText img={s3} heading="3) Get Result" text="We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam." />
+
+                </div>
+            </div>
+
+            <div className="container">
+                <h2 className="fw-bold text-center">
+                    Meet Our Team Experts
+                    </h2>
+                <p className="fw-light fs-5">
+                    All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
+                    </p>
+                <div className="row">
+                    <Team name="Abhinav Mane" image={img} post="Software Developer"/>
+                    <Team name="Vaibhavi Mane" image={img} post="Software Developer"/>
+                    <Team name="Vaibhav Mane" image={img} post="Software Developer"/>
+                    <Team name="Swapnil Mane" image={img} post="Software Developer"/>
+                </div>
             </div>
         </>
     )

@@ -1,15 +1,16 @@
 import React from 'react'
 
-const Cards = ({ cardText, cardTitle, cardImg }) => {
+const Team = ({ image, name, post }) => {
     return (
         <div className="col-12 col-sm-6 col-md-4 m-auto">
             <div className="card border-0 shadow-lg text-center">
-                <img src={cardImg} alt={cardImg} height="150px" className="card-img-top my-4" />
+                sdfasf
+                <img src={image} alt={images} height="150px" className="card-img-top my-4" />
                 <div className="card-body">
                     <div className="card-title">
-                        <h2 className="text-center">{cardTitle}</h2>
+                        <h2 className="text-center">{name}</h2>
                         <hr />
-                        <p>{cardText}</p>
+                        <p className="text-muted">{post}</p>
                     </div>
                 </div>
             </div>
@@ -17,4 +18,4 @@ const Cards = ({ cardText, cardTitle, cardImg }) => {
     )
 }
 
-export default Cards
+export default Team

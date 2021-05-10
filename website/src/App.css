@@ -8,6 +8,10 @@
 :root{
   --theme-color:#060927;
 }
+.bg-theme
+{
+  background:var(--theme-color);
+}
 body
 {
   background: hsl(0, 0%, 100%,94%);

@@ -58,10 +58,10 @@ const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-sm-10 col-md-10 m-auto text-center">
-                            <h2 className="fw-bold text-center">
+                            <h2 className="fw-bold text-center text-white">
                                 Simple, Fair and affordable prices for all.
                          </h2>
-                            <p className="fw-light fs-5">
+                            <p className="fw-light text-white fs-5">
                                 All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
                          </p>
                         </div>
